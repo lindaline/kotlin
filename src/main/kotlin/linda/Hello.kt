@@ -16,8 +16,11 @@ fun main(args: Array<String>) {
     print(name)
     println(" ")
 //    BMI
-    val b=BMI(66.5f,1.7f)
+    val b = BMI(66.5f, 1.7f)
     println(b.bmi())
+//    字串
+    var s = "abcde"
+    print(s.length)
 }
 
 class Human {
