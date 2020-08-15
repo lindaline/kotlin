@@ -1,6 +1,9 @@
 package linda
 
 fun main(args: Array<String>) {
+//    叫出Student
+    var stu=Student("linda",60,89)
+    stu.print()
 //    println("Hello kotlin")
     val h = Human()
     h.hello()
