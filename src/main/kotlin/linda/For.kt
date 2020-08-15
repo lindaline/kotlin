@@ -1,4 +1,4 @@
-package linda.Guess_number
+package linda
 
 import java.util.*
 

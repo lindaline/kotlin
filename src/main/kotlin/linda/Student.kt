@@ -1,13 +1,13 @@
-package linda.student
+package linda
 
 import java.util.*
 
 fun main() {
-    Student.pass=70
-    val stu=Student("linda",60,89)
-    val stu2=Student("Danny",50,80)
-    val stu3=Student("Hank",70,69)
-    val gut=GraduateStudent("Eric",78,89,87)
+    Student.pass =70
+    val stu= Student("linda", 60, 89)
+    val stu2= Student("Danny", 50, 80)
+    val stu3= Student("Hank", 70, 69)
+    val gut= GraduateStudent("Eric", 78, 89, 87)
     gut.print()
     println("GraduateStudent High score: ${gut.highest()}")
     stu.print()
@@ -18,7 +18,8 @@ fun main() {
     println("High score:${stu.highest()}")
 }
 
-class GraduateStudent(name:String?,english:Int,math:Int,var thesis:Int):Student(name,english,math){
+class GraduateStudent(name:String?,english:Int,math:Int,var thesis:Int):
+    Student(name,english,math){
     companion object{
         var pass=50
     }
